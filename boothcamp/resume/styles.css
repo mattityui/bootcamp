@@ -1,0 +1,17 @@
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 0;
+}
+.img_footer {
+  width: 40px;
+}
+.navbar-nav .nav-link:hover {
+  color: white;
+  background-color: orange;
+}
+.navbar-nav .nav-link.active {
+  color: white;
+  background-color: orange;
+}

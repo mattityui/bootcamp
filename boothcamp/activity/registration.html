@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ISCP Employee Registration Form</title>
+  </head>
+  <body>
+    <h1>ISCP Employee Registration Form</h1>
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/d/d4/ISCP_Logo.png?fbclid=IwAR1NhhjZJNsvWVdlS6cVITv--MUY12JRJ0l_eJ3InTboZyl8MfDUhLPPOHI"
+      alt="ISCP Logo"
+      width="250px"
+    />
+    <br />
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/aCUhfPAyDHY"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+    <h2>Basic information</h2>
+    <form>
+      <label for="first_name">First name:</label>
+      <input
+        type="text"
+        id="first_name"
+        name="first_name"
+        placeholder="ex. Juan"
+      />
+      <br />
+      <label for="last_name">Last name:</label>
+      <input
+        type="text"
+        id="last_name"
+        name="last_name"
+        placeholder="ex. de la Cruz"
+      />
+      <br />
+      <label for="place_of_birth">Place of Birth:</label>
+      <input
+        type="text"
+        id="place_of_birth"
+        name="place_of_birth"
+        placeholder="ex. Santo Thomas, La Union"
+      />
+
+      <br />
+
+      <label for="birthdate">Birthdate:</label>
+      <input type="date" name="birthdate" />
+      <br />
+      <label for="civilStatus">Civil Status:</label>
+      <input type="radio" id="single" name="civilStatus" value="single" />
+      <label for="single">Single</label>
+      <input type="radio" id="married" name="civilStatus" value="married" />
+      <label for="married">Married</label>
+      <input type="radio" id="widowed" name="civilStatus" value="widowed" />
+      <label for="widowed">Widowed</label>
+      <input type="radio" id="separated" name="civilStatus" value="separated" />
+      <label for="separated">Separated</label>
+
+      <br />
+
+      <label for="gender">Gender:</label>
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label>
+      <input type="radio" id="other" name="gender" value="other" />
+      <label for="other">Other</label>
+
+      <br />
+
+      <label for="mother_maiden_name">Mother's maiden name:</label>
+      <input
+        type="text"
+        id="mother_maiden_name"
+        name="mother_maiden_name"
+        placeholder="ex. Maria"
+      />
+      <br />
+      <label for="father_name">Father's name:</label>
+      <input
+        type="text"
+        id="father_name"
+        name="father_name"
+        placeholder="ex. Pedro"
+      />
+
+      <br />
+
+      <h2>Contact information</h2>
+      <label for="sss_id">SSS ID:</label>
+      <input
+        type="number"
+        id="sss_id"
+        name="sss_id"
+        placeholder="ex. 123456789"
+      />
+      <br />
+      <label for="pagibig_id">Pag-Ibig ID:</label>
+      <input
+        type="number"
+        id="pagibig_id"
+        name="pagibig_id"
+        placeholder="ex. 123456789"
+      />
+      <br />
+      <label for="philhealth_id">PhilHealth ID:</label>
+      <input
+        type="number"
+        id="philhealth_id"
+        name="philhealth_id"
+        placeholder="ex. 123456789"
+      />
+      <br />
+      <label for="fileupload">Upload 2x2 picture: </label>
+      <input type="file" name="fileupload" accept="image/*" />
+      <br />
+      <label for="government_id">Upload picture of government ID: </label>
+      <input type="file" name="government_id" accept="image/*" />
+
+      <br />
+
+      <h2>Account information</h2>
+      <label for="first_name">First name:</label>
+      <input
+        type="text"
+        id="first_name"
+        name="first_name"
+        placeholder="ex. Juan"
+      />
+      <br />
+      <label for="last_name">Last name:</label>
+      <input
+        type="text"
+        id="last_name"
+        name="last_name"
+        placeholder="ex. de la Cruz"
+      />
+      <br />
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Enter password"
+      />
+
+      <br />
+      <label for="con_password">Confirm password:</label>
+      <input
+        type="password"
+        id="con_password"
+        name="con_password"
+        placeholder="Enter Confirm Password"
+      />
+      <br />
+      <label for="profile_pic">Upload profile image: </label>
+      <input type="file" name="profile_pic" accept="image/*" />
+
+      <br />
+
+      <h3>Have you experienced any of the following in the last 30 days?</h3>
+      <input type="checkbox" name="coughing" /> Coughing
+      <input type="checkbox" name="fever" /> Fever
+      <input type="checkbox" name="headache" /> Headache
+      <br />
+      <input type="checkbox" name="common_cold" /> Common cold
+      <input type="checkbox" name="body_ache" /> Body ache
+      <input type="checkbox" name="sore_throat" /> Sore throat
+      <br />
+      <input type="checkbox" name="tiredness" /> Tiredness
+      <input type="checkbox" name="loss_of_smell" /> Loss of smell
+
+      <h3>Give a short description about yourself.</h3>
+      <textarea
+        name="about_yourself"
+        cols="40"
+        rows="10"
+        placeholder="Give a short description about yourself"
+      ></textarea>
+    </form>
+  </body>
+</html>

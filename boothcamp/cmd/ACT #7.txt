@@ -1,0 +1,55 @@
+1. Your current directory is the homework folder. Create a new subfolder named "trigonometry" under the math folder.
+
+> 	cd math && md trigonometry or
+  	cd math
+  	md trigonometry
+
+
+
+2. Your current directory is the math folder. Create a new subfolder in the mapeh folder called "health".
+
+>	cd ../mapeh && md health or
+  	cd ../mapeh
+  	md health
+
+
+
+3. Your current directory is the homework folder. Duplicate all files in all folders (but not the folders themselves) and name them [ORIGINAL FILENAME]_2.[FILETYPE]. Example: a copy of lab.docx would be lab_2.docx. The duplicated files would be in the same folder as the original files.
+
+>	cd math
+	copy algebra.docx algebra_2.docx
+  
+	cd ../science/physics
+	copy pendulum.exe pendulum_2.exe
+	
+	cd ../chemistry
+	copy lab.docx lab_2.docx
+	
+	cd ../physics/air resist
+	copy lab.docx lab_2.docx
+
+	cd ../../../filipino/el_fili/simoun
+	copy portrait.jpg portrait_2.jpg
+
+	cd ../../../mapeh
+	copy perf_task2.mp4 perf_task2_2.mp4
+	
+	cd pe
+	copy perf_task1.mp4 perf_task1_2.mp4
+
+	cd ../music
+	copy instruments.png instruments_2.png
+
+
+
+4. Your current directory is the math folder. Move the perf_task2.mp4 file to the pe folder.
+
+>	cd ../mapeh
+	move perf_task2.mp4 pe
+
+
+
+5. Your current directory is the music folder. Delete pendulum.exe (just the original file).
+
+>	cd ../../science/physics
+	del pendulum.exe

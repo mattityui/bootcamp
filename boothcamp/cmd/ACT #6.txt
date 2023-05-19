@@ -1,0 +1,25 @@
+1. Your current directory is the homework folder. Open portrait.jpg.
+
+>	cd filipino/el_fili/simoun
+	portrait.jpg
+
+2. Your current directory is the PE folder. Open the air resist lab.docx file.
+
+>	cd ../../science/physics/air resist
+	lab.docx
+
+3. Your current directory is the el_fili folder. Go to the noli me tangere folder.
+
+>	cd ../noli me tangere
+
+4. Your current directory is the math folder. Go to the music folder.
+
+>	cd ../mapeh/music
+
+5. Your current directory is the pe folder. Go to the physics folder, then get the current working directory.
+
+
+>	cd ../../science/physics
+	dir
+
+

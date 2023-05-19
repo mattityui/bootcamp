@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bear Burger's - Order</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+  </head>
+  <body>
+    <div class="container mt-3">
+      <h1>Order Here!</h1>
+      <div class="row mb-5">
+        <div class="col-md-6 col-lg-6 table-container">
+          <div class="table-column">
+            <table class="table table-bordered border-dark">
+              <tr class="table_header">
+                <th>Icons</th>
+                <th>Item Name</th>
+                <th>Price</th>
+              </tr>
+              <tr class="text-center table_sub_header">
+                <th colspan="3">Meals</th>
+              </tr>
+              <tr>
+                <td><img src="burger.png" alt="burger" width="50px" /></td>
+                <td>Burger</td>
+                <td>₱55.00</td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="fried_chicken.png" alt="burger" width="50px" />
+                </td>
+                <td>Fried Chicken</td>
+                <td>₱55.00</td>
+              </tr>
+              <tr>
+                <td><img src="spaghetti.png" alt="burger" width="50px" /></td>
+                <td>Spaghetti</td>
+                <td>₱55.00</td>
+              </tr>
+              <tr>
+                <td><img src="pizza.png" alt="burger" width="50px" /></td>
+                <td>Pizza</td>
+                <td>₱55.00</td>
+              </tr>
+              <tr class="table_sub_header text-center">
+                <th colspan="3">Drinks</th>
+              </tr>
+              <tr>
+                <td><img src="coke.png" alt="burger" width="50px" /></td>
+                <td>Coke</td>
+                <td>₱55.00</td>
+              </tr>
+              <tr>
+                <td><img src="sprite.png" alt="burger" width="50px" /></td>
+                <td>Sprite</td>
+                <td>₱55.00</td>
+              </tr>
+              <tr>
+                <td><img src="sarsi.png" alt="burger" width="50px" /></td>
+                <td>Sarsi</td>
+                <td>₱55.00</td>
+              </tr>
+              <tr class="table_footer">
+                <td colspan="2" rowspan="3" class="exclude-td">
+                  All items are subject to tax. No refunds. All items are not
+                  transferrable.
+                </td>
+              </tr>
+              <tr>
+                <td>Extra Rice - ₱20.00</td>
+              </tr>
+              <tr>
+                <td>Condiments - ₱20.00</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6 image-column">
+          <img
+            src="https://www.dellacasapasta.com/images/basil-sauce.png"
+            alt="basil-sauce"
+            class="table-img"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-black col-md-12">
+      <div class="row text-light mx-5">
+        <h1 class="text-light mt-5">Tell Us What You Think!</h1>
+        <div class="col-md-6 col-lg-6 image-column bg-black">
+          <img
+            src="https://thumbs.dreamstime.com/b/cucumber-burger-ingredients-floating-black-background-isolated-vertical-cucumber-burger-ingredients-floating-bun-cheese-tomato-177814997.jpg"
+            alt="basil-sauce"
+            class="table-img col-md-6"
+          />
+
+          <form class="col-md-6">
+            <div class="mb-3">
+              <label for="name" class="form-label">Name(optional):</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="province" class="form-label"
+                >Province(optional):</label
+              >
+              <input type="text" class="form-control" id="province" />
+            </div>
+            <div class="mb-3">
+              <label class="form-label"
+                >How many times you went to our restaurant?</label
+              ><br />
+              <input type="radio" name="first-time" id="first-time" />This is
+              the first time!<br />
+              <input type="radio" name="second-time" id="second-time" />Second
+              time <br />
+              <input type="radio" name="more-time" id="more-time" />Third time
+              or more
+            </div>
+            <div class="mb-3">
+              <label class="form-label"
+                >How many times you went to our restaurant?</label
+              ><br />
+              <input type="radio" name="one_star" id="one_star" />⭐
+              <input type="radio" name="two" id="second-time" />⭐⭐
+              <input type="radio" name="three" id="three" />⭐⭐⭐
+              <input type="radio" name="four" id="four" />⭐⭐⭐⭐
+              <input type="radio" name="five" id="five" />⭐⭐⭐⭐⭐
+            </div>
+            <div class="mb-3">
+              <label class="form-label">How would you rate the services?</label
+              ><br />
+              <input type="radio" name="one_star" id="one_star" />⭐
+              <input type="radio" name="two" id="second-time" />⭐⭐
+              <input type="radio" name="three" id="three" />⭐⭐⭐
+              <input type="radio" name="four" id="four" />⭐⭐⭐⭐
+              <input type="radio" name="five" id="five" />⭐⭐⭐⭐⭐
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
